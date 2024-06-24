@@ -1,0 +1,310 @@
+ros-jazzy-rqt-console (2.2.1-4noble) noble; urgency=high
+
+  * Add a test dependency on pytest. (#45 <https://github.com/ros-visualization/rqt_console/issues/45>)
+  * Contributors: Arne Hitzmann, Chris Lalancette
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 06 Feb 2024 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.2.0-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 27 Apr 2023 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.1.1-4noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#39 <https://github.com/ros-visualization/rqt_console/issues/39>)
+  * Contributors: Arne Hitzmann, Audrow Nash
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 13 Feb 2023 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.1.0-4noble) noble; urgency=high
+
+  * added new maintainer
+  * Contributors: Arne Hitzmann
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 09 May 2022 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.0.2-4noble) noble; urgency=high
+
+  * Use a custom QoS profile based on the default rosout QoS profile (#37 <https://github.com/ros-visualization/rqt_console/issues/37>)
+  * Contributors: Arne Hitzmann, Cole Tucker
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 26 Oct 2021 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.0.1-4noble) noble; urgency=high
+
+  * Use underscores in setup.cfg instead of dashes (#31 <https://github.com/ros-visualization/rqt_console/issues/31>)
+  * Contributors: Michel Hidalgo
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 26 Apr 2021 16:00:00 -0000
+
+ros-jazzy-rqt-console (2.0.0-4noble) noble; urgency=high
+
+  * Fix regression introduced in #21 <https://github.com/ros-visualization/rqt_console/issues/21> (#28 <https://github.com/ros-visualization/rqt_console/issues/28>)
+  * Changed the build type to ament_python and added setup.cfg (#21 <https://github.com/ros-visualization/rqt_console/issues/21>)
+  * Contributors: Alejandro Hernández Cordero
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 17 Mar 2021 16:00:00 -0000
+
+ros-jazzy-rqt-console (1.1.1-4noble) noble; urgency=high
+
+  * fix division in Python 3 (#18 <https://github.com/ros-visualization/rqt_console/issues/18>)
+  * fix highlight filter by message (#17 <https://github.com/ros-visualization/rqt_console/issues/17>)
+  * fix exclude messages (#11 <https://github.com/ros-visualization/rqt_console/issues/11>)
+  * add context menu for hiding and showing columns (#13 <https://github.com/ros-visualization/rqt_console/issues/13>)
+  * remove topics concept which has been removed in ROS 2 (#16 <https://github.com/ros-visualization/rqt_console/issues/16>)
+  * fix handle_pause_clicked doesn't need args (#15 <https://github.com/ros-visualization/rqt_console/issues/15>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 13 Jan 2020 16:00:00 -0000
+
+ros-jazzy-rqt-console (1.1.0-4noble) noble; urgency=high
+
+  * update for Dashing (#10 <https://github.com/ros-visualization/rqt_console/issues/10>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 02 Oct 2019 16:00:00 -0000
+
+ros-jazzy-rqt-console (1.0.1-4noble) noble; urgency=high
+
+  * remove unnecesary find_package call (#9 <https://github.com/ros-visualization/rqt_console/issues/9>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 11 Dec 2018 16:00:00 -0000
+
+ros-jazzy-rqt-console (1.0.0-4noble) noble; urgency=high
+
+  * porting rqt_console to ros2 (#8 <https://github.com/ros-visualization/rqt_console/issues/8>)
+  * flake8 (#7 <https://github.com/ros-visualization/rqt_console/issues/7>)
+  * autopep8 (#6 <https://github.com/ros-visualization/rqt_console/issues/6>)
+  * Contributors: Mike Lautman
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 10 Dec 2018 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.8-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 23 Apr 2017 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.7-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 01 Mar 2017 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.6-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 26 Feb 2017 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.5-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 02 Feb 2017 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.4-4noble) noble; urgency=high
+
+  * fix regression with Qt 4 (#414 <https://github.com/ros-visualization/rqt_common_plugins/issues/414>)
+  * fix missing dependency on rqt_py_common (#408 <https://github.com/ros-visualization/rqt_common_plugins/pull/408>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 23 Jan 2017 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.3-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 01 Nov 2016 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.2-4noble) noble; urgency=high
+
+  * make message column stretch (#398 <https://github.com/ros-visualization/rqt_common_plugins/issues/398>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 18 Sep 2016 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.1-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 15 May 2016 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.4.0-4noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#359 <https://github.com/ros-visualization/rqt_common_plugins/pull/359>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 26 Apr 2016 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.13-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 07 Mar 2016 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.12-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 23 Jul 2015 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.11-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 29 Apr 2015 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.10-4noble) noble; urgency=high
+
+  * update plugin scripts to use full name to avoid future naming collisions
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 30 Sep 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.9-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 17 Aug 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.8-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 14 Jul 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.7-4noble) noble; urgency=high
+
+  * export architecture_independent flag in package.xml (#254 <https://github.com/ros-visualization/rqt_common_plugins/issues/254>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 10 Jul 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.6-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 01 Jun 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.5-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 06 May 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.4-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 27 Jan 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.3-4noble) noble; urgency=high
+
+  * add groups for rqt plugins, renamed some plugins (#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+  * use icons instead of text when available, refactor pause/resume button
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 07 Jan 2014 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.2-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 13 Oct 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.1-4noble) noble; urgency=high
+
+  * rewrite of rqt_console to drastically improve performance (#186 <https://github.com/ros-visualization/rqt_common_plugins/pull/186>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 08 Oct 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.3.0-4noble) noble; urgency=high
+
+  * pause button no more saves state (#125 <https://github.com/ros-visualization/rqt_common_plugins/issues/125>)
+  * persist message limit (#138 <https://github.com/ros-visualization/rqt_common_plugins/issues/138>)
+  * add ability to set logger level (#117 <https://github.com/ros-visualization/rqt_common_plugins/issues/117>)
+  * add tooltips to table cells (#143 <https://github.com/ros-visualization/rqt_common_plugins/issues/143>)
+  * improve labels for filters (#146 <https://github.com/ros-visualization/rqt_common_plugins/issues/146>)
+  * fix time column when loading data from file (#160 <https://github.com/ros-visualization/rqt_common_plugins/issues/160>)
+  * fix applying message limit on change (#133 <https://github.com/ros-visualization/rqt_common_plugins/issues/133>)
+  * fix clear button to remove all messages (#141 <https://github.com/ros-visualization/rqt_common_plugins/issues/141>)
+  * fix sorting to use row index to decide order between equal values (except for time column) (#124 <https://github.com/ros-visualization/rqt_common_plugins/issues/124>)
+  * fix locking of message queue
+  * fix rendering of icons on OS X (ros-visualization/rqt#83 <https://github.com/ros-visualization/rqt/issues/83>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 27 Aug 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.17-4noble) noble; urgency=high
+
+  * added missing word in status tip
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 03 Jul 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.16-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 09 Apr 2013 05:33:00 -0000
+
+ros-jazzy-rqt-console (0.2.15-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 08 Apr 2013 16:02:00 -0000
+
+ros-jazzy-rqt-console (0.2.14-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 13 Mar 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.13-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 11 Mar 2013 14:14:00 -0000
+
+ros-jazzy-rqt-console (0.2.12-4noble) noble; urgency=high
+
+  * Fix; can't add filters when using pyside (#36 <https://github.com/ros-visualization/rqt_common_plugins/issues/36>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 11 Mar 2013 05:56:00 -0000
+
+ros-jazzy-rqt-console (0.2.11-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 07 Mar 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.10-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 21 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.9-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 16 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.8-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 10 Jan 2013 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.7-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sun, 23 Dec 2012 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.6-4noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Sat, 22 Dec 2012 16:00:00 -0000
+
+ros-jazzy-rqt-console (0.2.5-4noble) noble; urgency=high
+
+  * first release of this package into groovy
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 21 Dec 2012 11:11:00 -0000
+
+
