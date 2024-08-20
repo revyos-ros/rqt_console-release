@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-console
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_console
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-console
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-humble-ament-index-python, ros-humble-python-qt-binding (>= 0.2.19), ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-rqt-py-common, ros-humble-ros-workspace
+Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
